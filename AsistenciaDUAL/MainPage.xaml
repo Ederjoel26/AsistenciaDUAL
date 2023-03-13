@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AsistenciaDUAL.MainPage"
+             Title="Asistencia">
+    <Grid RowDefinitions="10*, 90*">
+        
+        <ContentView Grid.Row="0">
+            <Grid RowDefinitions="30*, 70*">
+                <Label Text="Selecciona la fecha:"
+                       FontSize="Body"
+                       TextColor="Black"
+                       Grid.Row="0"></Label>
+                <DatePicker MinimumDate="02/01/2023"
+                    MaximumDate="04/28/2023"
+                    DateSelected="DatePicker_DateSelected"
+                    Grid.Row="1"
+                    FontSize="Title"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+            </Grid>
+        </ContentView>
+        
+        <TableView Grid.Row="1">
+            <TableRoot>
+                <TableSection Title="Entrada"
+                              x:Name="tvTabla">
+                    
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </Grid>
+</ContentPage>

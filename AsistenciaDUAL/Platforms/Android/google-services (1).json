@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269833221905",
+    "project_id": "asistencia-ccai",
+    "storage_bucket": "asistencia-ccai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269833221905:android:d556c8bb7c8c7f58213eb0",
+        "android_client_info": {
+          "package_name": "com.companyname.asistenciadual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269833221905-ehfcnq6hb5c4n559khgcoqreuu1onfmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbUuLeDOhVJ8PbHQeZBDMBcg3go1cTAhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269833221905-ehfcnq6hb5c4n559khgcoqreuu1onfmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
